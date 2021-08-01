@@ -1,0 +1,60 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+#scroll-top {
+  left: 15px;
+  right: auto;
+}
+
+form .form-group .form-control {
+  padding: 0 0 0 25px;
+}
+
+header .menu .menuLinks li {
+  margin-right: 25px;
+  margin-left: 0;
+}
+
+header .menu .leftDiv .lang {
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+header .menu .leftDiv .lang i {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+header .menu .leftDiv .noti {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  header .menu {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    right: -100%;
+    left: auto;
+  }
+  header .menu.ulDir {
+    right: 0;
+    left: auto;
+  }
+  header .menu .user img, header .menu .user i {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  header .menu .leftDiv .lang {
+    margin-right: 0;
+  }
+  header .overlay {
+    left: 0;
+    right: auto;
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+}
+/*# sourceMappingURL=styleLTR.css.map */
